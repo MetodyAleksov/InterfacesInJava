@@ -7,6 +7,7 @@ public class TaxCalculator implements ITaxCalculator {
         this.taxableIncome = taxableIncome;
     }
 
+    @Override
     public double calculateTax(){
         return taxableIncome * 0.3;
     }
